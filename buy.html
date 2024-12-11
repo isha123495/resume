@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Gift Card Purchase</title>
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+
+<div class="gift-card-container">
+    <div class="gift-card-image"></div>
+    <div class="gift-card-content">
+        <h2>Bloom Gift Card</h2>
+        <p class="price">Rs. 5,000</p>
+        <div class="denominations">
+            <button class="price-btn selected">₹5000</button>
+            <button class="price-btn">₹10000</button>
+            <button class="price-btn">₹25,000.00</button>
+            <button class="price-btn">₹50,000.00</button>
+            <button class="price-btn">₹75,000.00</button>
+            <button class="price-btn">₹100,000.00</button>
+        </div>
+        <div class="quantity-container">
+            <button class="quantity-btn" onclick="decrement()">-</button>
+            <input type="text" id="quantity" value="1" readonly>
+            <button class="quantity-btn" onclick="increment()">+</button>
+        </div>
+        <div class="action-buttons">
+            <button class="add-to-cart" id="addToCartBtn">Add to Cart (1)</button>
+          
+            <a href="checkout.html">
+                <button class="buy-now">Buy it Now</button>
+            </a>
+        </div>
+        <p class="note">This is a digital flower gift card. It will be sent to the email ID provided at checkout, bringing joy and blooms to your loved ones!</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

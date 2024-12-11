@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffdce5;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fab2c4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.builder {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr;
+    gap: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    font-size: 1em;
+    cursor: pointer;
+    color: #555;
+    margin: 5px 0;
+}
+
+.bouquet-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffdce5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bouquet-display img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.options {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.options h2 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+}
+
+.types, .colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.types button, .colors .color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.colors .color.pink { background-color: #FFC0CB; }
+.colors .color.red { background-color: #f8cccc; }
+.colors .color.purple { background-color: #f9a8f9; }
+.colors .color.blue { background-color: #b9b9fa; }
+.colors .color.yellow { background-color: #fbfbb7; }
+.colors .color.green { background-color: #c3f5c3; }
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fcd1db;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+.summary p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.add-to-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: #fb6f92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}

@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f3fc, #f9c5d1);
+}
+
+.confirmation-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.confirmation-container .icon {
+    font-size: 50px;
+    color: #4CAF50; /* Green color for the check icon */
+    margin-bottom: 20px;
+}
+
+.confirmation-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.confirmation-container p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}

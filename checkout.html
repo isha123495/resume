@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <!-- Left Section -->
+        <div class="checkout-form">
+            <h2>Contact</h2>
+            <input type="email" placeholder="Email">
+            <div class="checkbox">
+                <input type="checkbox" id="news-offers" checked>
+                <label for="news-offers">Email me with news and offers</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="text-offers">
+                <label for="text-offers">Text me with news and offers</label>
+            </div>
+
+            <h2>Payment</h2>
+            <p>All transactions are secure and encrypted.</p>
+            <div class="payment-info">
+                <div class="payment-method">Razorpay Secure (UPI, Cards, Wallets, NetBanking)</div>
+                <div class="payment-logos">
+                    <img src="visa.jpg" alt="Visa">
+                    <img src="mastercard.jpg" alt="Mastercard">
+                    <img src="rupay.jpg" alt="Rupay">
+                    <span>+16</span>
+                </div>
+                <p>After clicking "Pay now", you will be redirected to Razorpay Secure to complete your purchase securely.</p>
+            </div>
+
+            <h2>Billing address</h2>
+            <select>
+                <option>India</option>
+                <!-- Add more countries as needed -->
+            </select>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+            <input type="text" placeholder="Company (optional)">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="Apartment, suite, etc. (optional)">
+            <input type="text" placeholder="City">
+            <select>
+                <option>Maharashtra</option>
+                <!-- Add more states as needed -->
+            </select>
+            <input type="text" placeholder="PIN code">
+            <input type="tel" placeholder="Phone">
+            <a href="Thankyou.html">
+                <button class="pay-now-button"> Pay now</button>
+            </a>
+            
+        </div>
+
+        <!-- Right Section -->
+        <div class="checkout-summary">
+            <div class="product-summary">
+                <img src="f2.jpg" alt="Product Image">
+                <div>
+                    <p><Fieldset></Fieldset>Flower Bloom</p>
+                    <p>₹5,000.00</p>
+                </div>
+            </div>
+            <input type="text" placeholder="Discount code or gift card">
+            <button class="apply-button">Apply</button>
+
+            <div class="total-section">
+                <p>Total</p>
+                <p>INR ₹5,000.00</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
